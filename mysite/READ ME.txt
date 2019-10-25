@@ -1,0 +1,13 @@
+manage.py
+--mysite/
+	settings.py
+	urls.py # dispatch URL to request page
+	wsgi.py
+	--credit/
+		views.py # to request page credit
+	--URLS/
+		converters.py
+		views.py # to request normal page
+	--website/
+		--main/
+			views.py # to request main page
