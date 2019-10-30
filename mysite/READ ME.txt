@@ -1,8 +1,8 @@
 manage.py
 --mysite/
-	settings.py
 	urls.py # dispatch URL to request page
 	wsgi.py
+	Global_Value.py
 	--credit/
 		views.py # to request page credit
 	--URLS/
@@ -11,3 +11,12 @@ manage.py
 	--website/
 		--main/
 			views.py # to request main page
+		--page/
+			views.py
+	--WSGI/
+		--aplication/
+			MyApplication.py
+	--settings/
+		base.py
+		local.py
+		production.py
